@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
     paddingBottom: 2,
     fontSize: 14,
     fontWeight: 'bold',
+    color: 'red',
     backgroundColor: 'rgba(247,247,247,1.0)',
   },
   item: {
@@ -54,7 +55,7 @@ const SectionListBasics = () => {
         sections={[
           {title: 'D', data: ['Devin', 'Dan', 'Dominic']},
           {
-            title: 'J',
+            title: 'JR',
             data: [
               'Jackson',
               'James',
