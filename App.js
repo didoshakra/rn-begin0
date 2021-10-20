@@ -53,9 +53,9 @@ const SectionListBasics = () => {
     <View style={styles.container}>
       <SectionList
         sections={[
-          {title: 'D', data: ['Devin', 'Dan', 'Dominic']},
+          {title: 'DRA', data: ['Devin', 'Dan', 'Dominic']},
           {
-            title: 'JR',
+            title: 'JRA',
             data: [
               'Jackson',
               'James',
