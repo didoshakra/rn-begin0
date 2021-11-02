@@ -4,20 +4,20 @@ import React from 'react';
 import {Platform, SectionList, StyleSheet, Text, View} from 'react-native';
 
 //+Platform
-const Component = Platform.select({
-  ios: () => require('ComponentIOS'),
-  android: () => require('ComponentAndroid'),
-})();
-<Component />;
+// const Component = Platform.select({
+//   ios: () => require('ComponentIOS'),
+//   android: () => require('ComponentAndroid'),
+// })();
+// <Component />;
 
-if (Platform.Version === 25) {
-  console.log('Running on Nougat!');
-}
+// if (Platform.Version === 25) {
+//   console.log('Running on Nougat!');
+// }
 
-const majorVersionIOS = parseInt(Platform.Version, 10);
-if (majorVersionIOS <= 9) {
-  console.log('Work around a change in behavior');
-}
+// const majorVersionIOS = parseInt(Platform.Version, 10);
+// if (majorVersionIOS <= 9) {
+//   console.log('Work around a change in behavior');
+// }
 //-Platform
 
 const styles = StyleSheet.create({
@@ -50,7 +50,6 @@ const styles = StyleSheet.create({
 const SectionListBasics = () => {
   return (
     <View style={styles.container}>
-      WWWWWWWWWWWWWWWWWWWWW
       <SectionList
         sections={[
           {title: 'D', data: ['Devin', 'Dan', 'Dominic']},

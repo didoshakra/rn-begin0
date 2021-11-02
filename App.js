@@ -1,30 +1,19 @@
 import React from 'react';
-import {View, Text, Image, ScrollView, TextInput} from 'react-native';
+import {View, Text, Image, ScrollView} from 'react-native';
 import CoreComponents from './scr/components/CoreComponents';
+import SectionListBasics from './App_SectionList_Platform 2';
+// import SectionListBasics from './scr/components/SectionList_Platform 2';
 
 const App = () => {
   return (
-    <ScrollView>
-      <CoreComponents/>
-      {/* <Text>Some text1111</Text>
-      <View>
-        <Text>Some more text</Text>
-        <Image
-          source={{
-            uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
-          }}
-          style={{width: 200, height: 200}}
-        />
-      </View>
-      <TextInput
-        style={{
-          height: 40,
-          borderColor: 'gray',
-          borderWidth: 1,
-        }}
-        defaultValue="You can type in me"
-      /> */}
-    </ScrollView>
+    // <ScrollView>
+    <View>
+      <CoreComponents />
+      {/* <App_ListBasic /> */}
+      {/* <FlatListBasics /> */}
+      <SectionListBasics />
+    </View>
+    //  </ScrollView>
   );
 };
 
