@@ -11,7 +11,7 @@ const App = () => {
       <CoreComponents />
       {/* <App_ListBasic /> */}
       {/* <FlatListBasics /> */}
-      <SectionListBasics />
+      {/* <SectionListBasics /> */}
     </View>
     //  </ScrollView>
   );
